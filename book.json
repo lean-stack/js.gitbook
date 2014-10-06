@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "-mathjax",
+    "-mixpanel"
+  ],
+  "links": {
+	"about": "http://michael-alt.info",
+	"issues": "https://github.com/lean-stack/js.gitbook/issues",
+	"contribute": "https://github.com/lean-stack/js.gitbook",
+
+	"sharing": {
+		"google": false,
+		"facebook": false,
+		"twitter": false
+	}
+  }
+}
