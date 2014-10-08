@@ -51,6 +51,19 @@ Also deklarieren die folgenden zwei zeilen jeweils eine Variable, die einen Funk
 
 Zu dem Zeitpunkt der Deklaration der Funktion "sieht" sie die lokale Variable ```count```. Was ist aber wenn wir die Funktion "später" aufrufen? Nun, die Engine rettet für uns die Variable, in dem sie einen *Closure-Scope* erstellt und die Variable darin der Funktion zur Verfügung stellt. Mit dem nächsten Aufruf von ```createCounter``` wird eine neue lokale Variable ```count``` erstellt, die nun ihrerseits in den Sichtbarkeitsbereich der innerern Funktion eingeschlossen wird. (Closure = Funktionsabschluss).
 
+Natürlich hätten wir die innere Funktion auch als *function expression* direkt returnieren können:
+
+    function createCounter () {
+
+      var count = 0;
+
+      return function () {
+        return ++count;
+      };
+    }
+
+Weitere Erklärungsversuche:
+
 * Zitat (frei) aus der [Perl FAQ](http://perldoc.perl.org/perlfaq7.html#What%27s-a-closure?): Closure ist ein Begriff aus der Programmierung, der präzise definiert aber schwer zu beschreiben ist. :-)
 * Zitat (Quelle vergessen): Closure is a notion out of the Lisp world that says if you define an anonymous function in a particular lexical context, it pretends to run in that context even when it's called outside the context.
 * Wikipedia: Als Closure oder Funktionsabschluss bezeichnet man eine Programmfunktion, die sich ihren Erstellungskontext „merkt“. Beim Aufruf kann die Funktion dann auf diesen zugreifen, selbst wenn der Kontext außerhalb der Funktion schon nicht mehr existiert.

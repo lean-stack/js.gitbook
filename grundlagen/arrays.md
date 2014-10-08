@@ -11,3 +11,12 @@ Ok, aber zurück zu Arrays.
 
 Letztere (literale) Variante ist vorzuziehen. Arrays verfügen über Eigenschaften (z.B. ```length```) und Methoden ( ```push```, ```pop```, ```unshift```, ```shift```, ```map```, ```reduce```, ```forEach```, ...). Siehe [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_instances).
 
+Und natürlich lässt sich auf Arrays über Indizes auf die Elemente zugreifen:
+
+    var erstePrimzahl = primZahlen[0];
+    zahlen[6] = 7;
+
+    for( var i = 0; i < zahlen.length; i++ ) {
+        console.log( zahlen[i] );
+    }
+

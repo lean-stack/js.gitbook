@@ -28,7 +28,7 @@ Die ```arguments```-Variable ist ein Objekt, das u.a. über die Eigenschaft ```l
 
 ### Funktionsausdrücke
 
-Funktionen können auch in Ausdrücken verwendet werden. Man spricht dann von einer *function expression*. Dabei ist Funktionsname optional und spielt im wesentlichen bei Rekursion eine Rolle, man spricht dann von einer anonymen Funktion:
+Funktionen können auch in Ausdrücken verwendet werden. Man spricht dann von einer *function expression*. Dabei ist der Funktionsname optional und spielt im wesentlichen bei Rekursion eine Rolle, man spricht dann von einer anonymen Funktion:
 
     var sub = function (a,b) {
         return a - b;
@@ -40,7 +40,7 @@ Im übrigen kann man auch deklarierte Funktionen an Variablen zuweisen, über di
 
     var addiere = add;
     addiere(17,4); // 21
-    
+
 ### Lokale Variablen
 
 Variablen, die innerhalb einer Funktion mit ```var``` deklariert werden, erhalten einen lexikalischen Scope, der ihre Gültigkeit auf die Funktion beschränkt. Außerhalb der Funktion sind diese nicht sichtbar - es sei denn wir vergessen das Schlüsselwörtchen ```var```.

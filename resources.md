@@ -13,6 +13,7 @@
 * [Addy Osmani, Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 * [JavaScript - The right way](http://www.jstherightway.org/)
 * [Galileo OpenBook](http://openbook.galileocomputing.de/javascript_ajax/)
+* [Learn JavaScript - GitBook](https://www.gitbook.io/book/gitbookio/javascript)
 
 ### Tutorials
 
