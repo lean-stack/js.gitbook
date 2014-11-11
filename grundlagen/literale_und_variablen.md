@@ -4,7 +4,7 @@
 
 Folgende primitive Literale stehen zur Verfügung:
 
-| Typ | Werte (beispielhaft) | Augsgabe von typeof( ... )
+| Typ | Werte (beispielhaft) | typeof Ausgabe
 | -- | -- | -- |
 | Number | ```42``` oder ```3.14``` | ```"number"``` |
 | Boolean | ```true``` oder ```false```| ```"boolean"``` |
@@ -14,7 +14,7 @@ Folgende primitive Literale stehen zur Verfügung:
 
 Zu ```null``` und ```undefined``` folgt näheres im nächsten Abschnitt.
 
-Daneben existieren in JavaScript noch Varianten um Arrays und Objekte literal zu initialisieren. Dazu aber ebenfalls gesonderte Betrachtungen in späteren Abschnitten.
+Daneben existieren in JavaScript noch Varianten um Arrays, reguläre Ausdrücke und Objekte im Allgemeinen literal zu initialisieren. Dazu aber ebenfalls gesonderte Betrachtungen in späteren Abschnitten.
 
 ### Variablen
 
