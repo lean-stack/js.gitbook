@@ -23,6 +23,8 @@
    * [Traversal](das_dom/traversal.md)
    * [Manipulation](das_dom/manipulation.md)
    * [HTML to DOM](das_dom/umgang_mit_html-text.md)
+   * [CSS Manipulation](das_dom/css_manipulation.md)
 * [DOM Events](dom_events/README.md)
    * [Geschichte](dom_events/geschichte.md)
+   * [Vanilla JS](dom_events/vanilla_js.md)
 

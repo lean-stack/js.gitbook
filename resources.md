@@ -18,6 +18,7 @@
 ### Tutorials
 
 * [DailyJS - JavaScript 101](http://dailyjs.com/js101.html)
+* [John Resig - Advanced JavaScript](http://ejohn.org/apps/learn/)
 * [SurviveJS](http://survivejs.com/)
 * [ByteArray - JavaScript Refresh](http://www.bytearray.org/?p=5591)
 * [JavaScript in 10 minutes](https://github.com/spencertipping/js-in-ten-minutes)
