@@ -25,3 +25,8 @@
 * [Molily.de - Einführung (im Aufbau?)](http://molily.de/js/)
 * [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
 
+### Learning Schools
+
+* [Code Academy](https://www.codecademy.com/tracks/javascript)
+* [Node School](http://nodeschool.io/de/)
+* [Code School](https://www.codeschool.com/paths/javascript)
